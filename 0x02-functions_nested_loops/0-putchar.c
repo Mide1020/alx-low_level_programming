@@ -1,11 +1,10 @@
-#include "main.h"
+#include <main.h>
 /**
- * main - Print _putchar
+ * main - print putchar
  *
- * Return: Always 0 (Success)
+ * Return: Always 0
  */
-
-int main(void)
+int main (void)
 {
 	_putchar('_');
 	_putchar('p');
