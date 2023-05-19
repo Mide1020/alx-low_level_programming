@@ -7,13 +7,11 @@
  */
 
 void print_numbers(void)
-{
-	char a = 0;
+	int main(){
+	int numbers = 0;
+            int c = numbers;
+             if(c <=10){
+            c++;
+   }
 
-	while (a <= 9)
-	{
-		_putchar(a + '0');
-		a++;
-	}
-	_putchar('\n');
-}
+  }
