@@ -2,9 +2,9 @@
 
 /**
  * sum_listint - calculating the sum
- * @head: first node
+ * @head: the first node
  *
- * Return: result sum
+ * Return: result of the sum
  */
 int sum_listint(listint_t *head)
 {
@@ -13,7 +13,7 @@ int sum_listint(listint_t *head)
 
 	while (tmp)
 	{
-		num += tmp->n;
+		add += tmp->n;
 		tmp = tmp->next;
 	}
 
